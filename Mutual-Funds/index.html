@@ -1,0 +1,1259 @@
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="x-ua-compatible" content="ie=edge" />
+  <title>Rahul Kulkarni</title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="manifest" href="site.webmanifest" />
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png" />
+  <!-- Place favicon.png in the root directory -->
+
+  <!-- CSS here -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/owl.carousel.min.css" />
+  <link rel="stylesheet" href="css/animate.min.css" />
+  <link rel="stylesheet" href="css/nice-select.css" />
+  <link rel="stylesheet" href="css/magnific-popup.css" />
+  <link rel="stylesheet" href="css/all.min.css" />
+  <link rel="stylesheet" href="css/flaticon.css" />
+  <link rel="stylesheet" href="css/meanmenu.css" />
+  <link rel="stylesheet" href="css/slick.css" />
+  <link rel="stylesheet" href="css/default.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <style>
+    /* Responsive styles for smaller screens */
+    @media only screen and (max-width: 767px) {
+      .top-bar {
+        display: block;
+        /* Show the top bar on smaller screens */
+        text-align: center;
+        /* Center the content */
+      }
+
+      .header-info {
+        margin-bottom: 10px;
+        /* Add some space between address and phone */
+      }
+
+      .header-phone {
+        display: block;
+        /* Show the phone number on smaller screens */
+      }
+
+      .header-social-icons {
+        display: block;
+        /* Show social icons on smaller screens */
+        text-align: center;
+        /* Center the social icons */
+      }
+
+      .header-social-icons ul {
+        padding: 0;
+        /* Remove default padding */
+        list-style: none;
+        /* Remove default list styling */
+      }
+
+      .header-social-icons li {
+        display: inline-block;
+        /* Display social icons horizontally */
+        margin-right: 10px;
+        /* Add space between social icons */
+      }
+    }
+  </style>
+
+  <script>
+    function scrollToSection(sectionId) {
+      var targetSection = document.querySelector(sectionId);
+
+      if (targetSection) {
+        targetSection.scrollIntoView({
+          behavior: "smooth",
+        });
+      }
+    }
+  </script>
+
+  <!-- header begin -->
+  <header>
+    <div class="top-bar d-none d-md-block pt-15 pb-15">
+      <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col-xl-8 col-lg-8 col-md-7">
+            <div class="header-info">
+              <span class="header-address"><i class="fa fa-map-marker-alt"></i> 15/A, Sneh Bunglow,
+                Avdhoot Society, Near Samrat Hotel, Dombivli (West)</span>
+              <span class="header-phone hq"><i class="fas fa-phone"></i> +91 9004282149</span>
+              <!-- <span class="header-email"><i class="fas fa-envelope"></i> kulkarnimukund@prudentconnect.com</span> -->
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-5 d-none d-md-block">
+            <div class="header-social-icons header-social-icons-black f-right">
+              <ul>
+                <li>
+                  <a href="https://www.facebook.com/rahulkulkarni1402/"><i class="fab fa-facebook-f"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.youtube.com/@rahulkulkarni1141"><i class="fab fa-youtube"></i></a>
+                </li>
+                <li>
+                  <a href="https://in.linkedin.com/in/rahul-kulkarni-29a5332b"><i class="fab fa-linkedin"></i></a>
+                </li>
+                <li>
+                  <a href="https://www.instagram.com/rahulkulkarni_mutualfunds/?hl=en"><i
+                      class="fab fa-instagram"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- menu-area -->
+    <!-- <div class="header-menu-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-lg-3 col-md-5 d-flex align-items-center">
+                        <div class="logo">
+                            <a href="index.html"><img src="img/logo/logo.png" alt=""></a>
+                        </div>
+                    </div>
+                    <div class="col-xl-9 col-lg-9 col-md-9">
+                        <div class="header-right f-right d-none d-lg-block">
+                            <a href="appoinment.html" class="bt-btn btn-h-white">Get a Quote</a>
+                        </div>
+                        <div class="header__menu f-right">
+                            <nav id="mobile-menu">
+                                <ul>
+                                    <li ><a href="#index" >Home</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="index.html">Home style 01</a></li>
+                                            <li><a href="index-2.html">Home style 02</a></li>
+                                            <li><a href="index-3.html">Home style 03</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="#service" onclick="scrollToSection('#services')">Services</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="services.html">Services 01</a></li>
+                                            <li><a href="services-2.html">Services 02</a></li>
+                                            <li><a href="services-details.html">Services Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="#team" onclick="scrollToSection('#about')">About</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="team.html">Team Style 01</a></li>
+                                            <li><a href="team-2.html">Team Style 02</a></li>
+                                            <li><a href="team-details.html">Team Details</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="https://forms.rahulkulkarni.in/contact-us" >Contact Us</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="blog.html">Blog Right Sidebar</a></li>
+                                            <li><a href="blog-left-sidebar.html">Blog Left Sidebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li ><a href="#!" onclick="scrollToSection('#FAQ')">FAQ</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="shop.html">Shop Page</a></li>
+                                            <li><a href="product-details.html">Shop Details</a></li>
+                                            <li><a href="cart.html">Shopping Cart</a></li>
+                                            <li><a href="checkout.html">Checkout</a></li>
+                                            <li><a href="wishlist.html">Wishlist</a></li>
+                                            <li><a href="login.html">Login</a></li>
+                                            <li><a href="register.html">Register</a></li>
+                                        </ul>
+                                    </li>
+                                    
+                                    <li ><a href="#">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</a>
+                                        <ul class="submenu" style="display: none;">
+                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="appoinment.html">Appoinment</a></li>
+                                            <li><a href="portfolio-2-col.html">Portfolio 2 column</a></li>
+                                            <li><a href="portfolio.html">Portfolio 3 column</a></li>
+                                            <li><a href="portfolio-slider.html">Portfolio Slider</a></li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                    <div class="col-12">
+                        <div class="mobile-menu"></div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+  </header>
+  <!-- header end -->
+
+  <main>
+    <!-- hero-area start -->
+    <section class="hero-area">
+      <div class="hero-slider">
+        <div class="slider-active">
+          <a href="https://forms.rahulkulkarni.in/">
+          <div class="single-slider slider-height d-flex align-items-center" data-background="img/Busniess.png">
+            <!-- <div class="container">
+              <div class="row">
+                <div class="col-xl-7 col-lg-8 col-md-10">
+                  <div class="hero-text">
+                    <div class="hero-slider-caption ">
+                      <h5 data-animation="fadeInUp" data-delay=".2s">We are here for your help.</h5>
+                      <h1 data-animation="fadeInUp" data-delay=".4s">Mutual Funds Advice & Solution.</h1>
+                      <p data-animation="fadeInUp" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                    </div>
+                    <div class="hero-slider-btn">
+                      <a data-animation="fadeInLeft" data-delay=".6s" href="" class="bt-btn btn-h-white">Discover
+                        More</a>
+                      <a data-animation="fadeInRight" data-delay="1.0s"
+                        href="https://www.youtube.com/watch?v=eXQgPCsd83c" class="play-btn popup-video"><i
+                          class="fas fa-play"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div> -->
+          </div>
+        </a>
+          <!-- <div class="single-slider slider-height d-flex align-items-center" data-background="img/02.jpg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-xl-7 col-lg-8 col-md-10">
+                                    <div class="hero-text">
+                                        <div class="hero-slider-caption ">
+                                            <h5 data-animation="fadeInUp" data-delay=".2s">Digital Consulting.</h5>
+                                            <h1 data-animation="fadeInUp" data-delay=".4s">Best Idea & Better Return.</h1>
+                                            <p data-animation="fadeInUp" data-delay=".6s">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                        <div class="hero-slider-btn">
+                                            <a data-animation="fadeInLeft" data-delay=".6s" href="about.html" class="bt-btn btn-h-white">About Us</a>
+                                            <a data-animation="fadeInRight" data-delay="1.0s" href="https://www.youtube.com/watch?v=eXQgPCsd83c"
+                                                class="play-btn popup-video"><i class="fas fa-play"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+        </div>
+      </div>
+    </section>
+    <!-- hero-area end -->
+    <!-- about-area start -->
+    <section class="about-area margn">
+      <div class="container">
+        <div class="row video-content">
+          <div class="col-xl-6 col-lg-5">
+            <div class="about-left-side pos-rel mb-30">
+              <!-- <div
+                  class="about-front-img pos-rel vid"
+                  style=""
+                > -->
+              <video class="frame-y" style="margin-top: 30px;" controls autoplay muted>
+                <source src="./videos/Website Video.mp4" type="video/mp4" />
+              </video>
+              <!-- <div  >
+                                    <iframe class="frame-y" src="https://www.youtube.com/embed/hZm-TWfSnxI?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>  
+                                </div> -->
+              <!-- </div> -->
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7">
+            <div class="about-right-side pt-30 mb-30" style="padding-top: 10px">
+              <div class="about-title mb-20" style="margin-bottom: 10px">
+                <h4 style="color: #04aa6d" id="Unlock">
+                  Unlock Financial Freedom: Discover the Power of
+                </h4>
+                <h2 style="color: #04aa6d">Mutual Funds</h2>
+              </div>
+              <div class="about-text mb-50" style="margin-bottom: 20px">
+                <p>
+                  We help clients achieve financial goals with customized
+                  investment strategies based on their unique needs and risk
+                  tolerance. Education is important, so we offer regular
+                  updates and resources to help clients become more informed
+                  investors. Our commitment to transparency and exceptional
+                  service builds trust and long-lasting relationships with our
+                  clients. Contact us to start achieving your financial
+                  dreams.
+                </p>
+              </div>
+              <div class="our-destination">
+                <div class="single-item mb-30" style="margin-bottom: 10px">
+                  <div class="mv-icon f-left">
+                    <i class="flaticon-business-and-finance-6"></i>
+                  </div>
+                  <div class="mv-title fix">
+                    <h4 style="color: #00455b">
+                      Reclaim Your Life: Start Your Journey towards Financial
+                      Freedom Today
+                    </h4>
+                  </div>
+                </div>
+                <div class="single-item">
+                  <div class="mv-icon f-left">
+                    <i class="flaticon-deal"></i>
+                  </div>
+                  <div class="mv-title fix">
+                    <h4 style="color: #00455b">
+                      TRANSFORM YOUR LIFE, LIVE YOUR DREAMS
+                    </h4>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="about-author d-flex align-items-center">
+                            <div class="author-ava">
+                                <img src="img/rahul-circle.png" alt="">
+                            </div>
+                            <div class="author-desination">
+                                <h4 style="color:#04AA6D;">Rahul Kulkarni</h4>
+                                <h6 style="color:#00455b;">founder</h6>
+                            </div>
+                        </div> -->
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area end -->
+
+    <!-- services-area start -->
+    <section class="servcies-area gray-bg pt-115 pb-90">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10">
+            <div class="section-title text-center pos-rel mb-75">
+              <div class="section-text pos-rel">
+                <h5 style="color: #00455b">Services</h5>
+                <h1 id="services" style="color: #00455b">
+                  Our Services<span></span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-business-and-finance-1"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Investment portfolio</a>
+                </h3>
+                <p>
+                  Whenever you think of making investment, three things should
+                  come on top of your mind – Risk Profiling, Products and
+                  Asset Allocation.
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-business-and-finance"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Insurance Policies</a>
+                </h3>
+                <p>
+                  Insurance is an important risk management tool that can
+                  protect you and your family from financial hardship caused
+                  by unfortunate events.
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-team-work-1"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Tax Optimization</a>
+                </h3>
+                <p>
+                  Tax planning involves optimizing your wealth creation and
+                  protecting your health, life and assets while aligning all
+                  these with existing provisions in our tax
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-business-and-finance-6"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Mutual Fund</a>
+                </h3>
+                <p>
+                  A mutual fund is a type of investment vehicle consisting of
+                  a portfolio of stocks, bonds or other asset classes. Mutual
+                  funds give small or individual investors
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-business-and-finance-12"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Wealth Basket</a>
+                </h3>
+                <p>
+                  Wealth is an abundance of variable material resources. The
+                  meaning of wealth is not straightforward. Wealth is
+                  basically a person’s net worth.
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-6 col-md-6">
+            <div class="service-box text-center mb-30">
+              <div class="service-thumb">
+                <i class="flaticon-megaphone"></i>
+              </div>
+              <div class="service-content">
+                <h3>
+                  <a href="https://forms.rahulkulkarni.in/">Targeted Investment</a>
+                </h3>
+                <p>
+                  Making holistic investment choice is always preferred than
+                  making random investments. This can be achieved if every
+                  investment made is linked
+                </p>
+                <a class="service-link" href="https://forms.rahulkulkarni.in/">Read More <i
+                    class="fas fa-angle-double-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- services-area end -->
+    <!-- cta-area start -->
+    <section class="cta-area pos-rel pt-115 pb-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1 col-md-12">
+            <div class="cta-text text-center">
+              <div class="section-title pos-rel mb-50">
+                <div class="section-text section-text-white pos-rel">
+                  <!-- <h5>do you have any questions ?</h5> -->
+                  <h2 class="white-color">
+                    ACHIEVE YOUR GOALS AND DREAMS: Sign Up for FREE
+                    Consultation
+                  </h2>
+                </div>
+              </div>
+              <div class="section-button section-button-left">
+                <h2>
+                  <a href="https://forms.rahulkulkarni.in/" class="bt-btn">CLICK HERE TO GET CONSULTATION</a>
+                </h2>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- cta-area end -->
+
+    <!-- Counter area end -->
+    <!-- about-area start -->
+    <section class="about-area pt-120 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-5">
+            <div class="about-left-side pos-rel mb-30">
+              <div class="about-front-img pos-rel">
+                <img src="img/rahul.jpg" alt="" />
+                <!-- <a class="popup-video about-video-btn white-video-btn"
+                                    href="https://www.youtube.com/watch?v=I3u3lFA9GX4"><i class="fas fa-play"></i></a> -->
+              </div>
+              <div class="about-exp">
+                <div class="exp-icon" style="color: #00455b">
+                  <i class="fal fa-hospital"></i>
+                </div>
+                <div class="exp-content">
+                  <h2 class="exp-title" style="color: #04aa6d">
+                    <span class="counter" style="color: #04aa6d">25</span> +
+                  </h2>
+                  <p>Years Of Experience</p>
+                </div>
+                <div class="exp-dots">
+                  <span></span>
+                  <span></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-7">
+            <div class="about-right-side pt-30 mb-30">
+              <div class="about-title mb-20">
+                <h5 id="about" style="color: #00455b">About Us</h5>
+                <div class="mv-title fix">
+                  <h3 style="color: #04aa6d">Most Renowed Entrepreneur</h3>
+                </div>
+                <h1 style="color: #04aa6d">Rahul Kulkarni</h1>
+              </div>
+              <div class="about-text mb-50">
+                <p>
+                  Meet our Co-Founder, Mr. Rahul Kulkarni, who holds a
+                  Bachelor's degree in Mechanical Engineering and a Master's
+                  degree in Management Studies with a specialization in
+                  Finance. With his unique educational background, he
+                  possesses a strong understanding of both technical and
+                  financial aspects, which has helped him excel in the field
+                  of personal finance management.
+                </p>
+                <p>
+                  Mr Rahul Kulkarni has been managing assets worth over 100+
+                  crores and has helped more than 2000 clients manage their
+                  personal finances effectively. He has been providing
+                  financial solutions to individuals, families, and businesses
+                  for several years now, and his expertise in the field has
+                  earned him a great reputation.
+                </p>
+                <p>
+                  In addition to his professional achievements, Mr. Rahul
+                  Kulkarni also has a significant social media presence. His
+                  Instagram following is more than 30,000, with many followers
+                  regularly engaging with his posts and seeking financial
+                  advice. He also has a Facebook page with over 7,000
+                  followers and a YouTube channel with over 4,500 subscribers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area end -->
+    <!-- contact-area start -->
+    <section class="contact-area pt-120 pb-90" data-background="assets/img/bg/bg-map.png">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-8 col-lg-10">
+            <div class="section-title text-center pos-rel mb-75">
+              <div class="section-text pos-rel">
+                <h1 style="color: #00455b">
+                  Here's How We Work<span></span>
+                </h1>
+                <p>
+                  We are on a mission to help 1,00,000 people achieve
+                  Financial Freedom through Mutual Funds. Kindly Note - My
+                  Consultation is free of cost, only if you qualify based on
+                  your answers.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="contact text-center mb-30">
+              <i class="fa-solid fa-book-bible"></i>
+              <br /><br />
+              <h4>Step #1</h4>
+              <h3>Google Form</h3>
+              <p>
+                You will get a call from my team within 24 hours only during
+                the working days. <br /><br />
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="contact text-center mb-30">
+              <i class="fa-solid fa-bullseye"></i>
+              <h4>Step #2</h4>
+              <h3>Selection for Free Consultation</h3>
+              <p>
+                Based on the answers, We will select People for free
+                consultation on Mutual Funds and Financial Planning.
+              </p>
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-4">
+            <div class="contact text-center mb-30">
+              <i class="fas fa-phone"></i>
+              <h4>Step #3</h4>
+              <h3>1-2-1 Call</h3>
+              <p>
+                You will get a call from my team within 24 hours only during
+                the working days. <br /><br /><br />
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact-area end -->
+    <!-- services-area end -->
+    <!-- cta-area start -->
+    <section class="cta-area pos-rel pt-115 pb-120">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-10 offset-xl-1 col-md-12">
+            <div class="cta-text text-center">
+              <div class="section-title pos-rel mb-50">
+                <div class="section-text section-text-white pos-rel">
+                  <h1 class="white-color">Life Changing Decision</h1>
+                  <h5>
+                    If You Have Come Till Here What Are You Waiting For, Click
+                    On The Button Below And <br />
+                  </h5>
+                  <h5 style="color: green">
+                    GET FREE MUTUAL FUNDS CONSULTATION
+                  </h5>
+                </div>
+              </div>
+              <div class="section-button section-button-left">
+                <a href="https://forms.rahulkulkarni.in/" class="bt-btn">CLICK HERE TO GET CONSULTATION</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cta-area end -->
+    <!-- about-area start -->
+    <section class="about-area pt-115 pb-80">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="single-couter counter-box counter-box-white text-center mb-30">
+              <i class="fal fa-user"></i>
+              <h1><span class="counter">2</span>K</h1>
+              <h6 class="c-sub-title pb-20">Satisfied Clients</h6>
+              <!-- <div class="counter-text mt-10">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+                            </div> -->
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="single-couter counter-box counter-box-white text-center mb-30">
+              <i class="fal fa-map-marked-alt"></i>
+              <h1><span class="counter">25</span>+</h1>
+              <h6 class="c-sub-title pb-20">Years Of Experience</h6>
+              <span class="counter-shpae"></span>
+              <!-- <div class="counter-text mt-10">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+                            </div> -->
+            </div>
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-6">
+            <div class="single-couter counter-box counter-box-white text-center mb-30">
+              <i class="fal fa-trophy-alt"></i>
+              <h1><span class="counter">102</span>Cr</h1>
+              <h6 class="c-sub-title pb-20">Portfolio</h6>
+              <span class="counter-shpae"></span>
+              <!-- <div class="counter-text mt-10">
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut lab.</p>
+                            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about-area end -->
+
+    <!-- testimonials-area start -->
+    <div class="testimonials-area pt-115 pb-120" style="padding-top: 50px">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-xl-6 col-lg-10 col-md-10">
+            <div class="section-title text-center pos-rel mb-70">
+              <div class="section-text pos-rel">
+                <h5 style="color: #00455b">Testimonials</h5>
+                <h1 style="color: #00455b">
+                  Our Happy Clients<span>.</span>
+                </h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="custom-row testimonials-activation">
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  A BIG Thanks to you Rahul. My Mutual Fund investments
+                  couldn't have grown to what they are today if it wasn't for
+                  your convincing, guidance and the strong support of you and
+                  your team all the time. I want to appeal to all those
+                  aspiring people out there thinking to dial your number, that
+                  it will only take one push to make that phone call, and then
+                  await a life changing outcome, for their investment
+                  decisions will be guided and well informed. Thanks again for
+                  everything and I wish more and more people benefit from your
+                  nuggets of wisdom and change their lives for good. You truly
+                  pioneer this revolution in investment thought process and
+                  changing people's mindset. Just to throw some numbers, as on
+                  1st Jan 2023, my portfolio sits at a CAGR of 15.29% since
+                  Oct 2016. Hands down to you Sir 🙏🏽
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Kedar Patwardhan</h4>
+                  <span class="f-500 green-color">Happy Clients</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  Excellent guidance, good convincing power, investment as per
+                  age,goals , requirement,transparency, reliability,online
+                  platform for all types of transactions.we will recomend your
+                  name to all my friends and relatives.
+                </p>
+                <p>
+                  राहुल आणि मुकुंद कुलकर्णी, आहे फार मधुर तुमची वाणी, सांगता
+                  परिजनांना म्युच्युअल फंड कहाणी, सांभाळता व्यवहार दोघे
+                  एकदिलानी, बहरुदे व्यवसाय तुमचा 'तेजी'नी, गोड मानून घ्या
+                  आमच्या सदिच्छा आनंदानी !
+                  <br /><br /><br /><br /><br /><br /><br />
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Netra Katdare</h4>
+                  <span class="f-500 green-color">Happy Clients</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  Excellent services and very good assistance on how to invest
+                  ! The team is just fabulous and is always there to help and
+                  guide you on best investment strategy to meet your financial
+                  goals . Kudos to entires team and Rahul Kulkarni. Way to go
+                  guys !! 👍👍 <br /><br /><br /><br />
+                  <br /><br /><br /><br /><br /><br />
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Pawan Kulkarni</h4>
+                  <span class="f-500 green-color">Happy Client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  Proper financial guidance will be provided to you. Mr. Rahul
+                  Kulkarni ensures that all your investment needs be taken
+                  into consideration and best plan be handpicked from all the
+                  available options. The staff is knowledgeable and very
+                  cooperative with any questions you may have.<br /><br /><br /><br />
+                  <br /><br /><br /><br /><br /><br />
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Ankur Juvekar</h4>
+                  <span class="f-500 green-color">Happy Client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  Whenever we think of investments there is no other name than
+                  Rahul kulkarni. We always receive the best guidance. That's
+                  the benefit of consulting an expert from the industry. Thank
+                  you so much for always keeping all our money on the right
+                  tracks especially when we dont have much knowledge of it.
+                  They are the one whom we can completely trust.<br /><br /><br /><br />
+                  <br /><br /><br /><br /><br />
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Bhakti Sabnis</h4>
+                  <span class="f-500 green-color">Happy Client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-12">
+            <div class="testi-box-2">
+              <div class="test-rating-inner d-flex justify-content-between mb-30 align-items-center pr-15">
+                <div class="testi-quato-icon testi-quato-icon-green m-0">
+                  <img src="img/testi-quato-icon.png" alt="" />
+                </div>
+                <div class="testi-rating-list">
+                  <ul>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                    <li><i class="fas fa-star"></i></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="testi-content-2">
+                <h3>About Client</h3>
+                <p>
+                  Rahul Kulkarni is the best financial advisor. Staff is also
+                  supportive, cooperative. His advice is not only for at the
+                  time of investment but for the lifetime. You can ask any
+                  financial advice at any time & you will be satisfied
+                  100%.this is my experience for last 6 to 7 years<br /><br /><br /><br />
+                  <br /><br /><br /><br /><br /><br />
+                </p>
+              </div>
+              <div class="testi-author d-flex align-items-center mt-30">
+                <div class="testi-author-icon-2">
+                  <img src="img/Screenshot (1640).png" alt="" />
+                </div>
+                <div class="testi-author-desination-2">
+                  <h4>Anjali Patwardhan</h4>
+                  <span class="f-500 green-color">Happy Client</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- testimonials-area end -->
+    <!-- faq-area start -->
+    <div class="section-faq-area pt-120 pb-100">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-lg-4 d-lg-none d-xl-block">
+            <div class="faq-left-box pos-rel mb-200">
+              <div class="faq-left-img">
+                <img class="img" src="img/faq-left-back.jpg" alt="" />
+              </div>
+              <div class="faq-pos-front">
+                <img class="img" src="img/faq-left-front.jpg" alt="" />
+              </div>
+              <div class="faq-back-shape">
+                <img class="img" src="img/faq-left-back-shape.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-12">
+            <div class="about-title mb-45">
+              <h5 class="pink-color" id="FAQ" style="color: #00455b">FAQ</h5>
+              <h1 style="color: #00455b">Get Every Single Answers There.</h1>
+            </div>
+            <div class="faq-right-box">
+              <div id="accordion" class="mt-40">
+                <div class="card">
+                  <div class="card-header" id="headingOne">
+                    <h5 class="mb-0">
+                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseOne"
+                        aria-expanded="false" aria-controls="collapseOne">
+                        What are the charges for Mutual Funds Consultation?
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Consultation is completely Free. If you invest through
+                        us (Regular Channel), then we get a commission from
+                        the AMC's.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingTwo">
+                    <h5 class="mb-0">
+                      <a href="#" class="btn-link" data-toggle="collapse" data-target="#collapseTwo"
+                        aria-expanded="false" aria-controls="collapseTwo">
+                        Do you take in person appointments?
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseTwo" class="collapse show" aria-labelledby="headingTwo" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Yes. I do take in person appointments. My office is in
+                        Dombivli west. You can schedule an appointment with me
+                        by calling on 9820525790
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingThree">
+                    <h5 class="mb-0">
+                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseThree"
+                        aria-expanded="false" aria-controls="collapseThree">
+                        Do you offer full Financial Planning?
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Yes, I do complete financial planning for those who
+                        want to set a goal and achieve it. This includes
+                        Mutual Funds Investments, Term Insurance, Mediclaim,
+                        reviewing earlier investments etc
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFour"
+                        aria-expanded="false" aria-controls="collapseFour">
+                        Do you provide any Guarantee of returns?
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        If you invest in Mutual Funds, there is no guarantee
+                        of returns. One should focus on the Tenure and invest
+                        as per his Financial Appetite. If these 2 rules are
+                        followed diligently, then you will be able to beat FD
+                        rates very easily.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-header" id="headingFour">
+                    <h5 class="mb-0">
+                      <a href="#" class="btn-link collapsed" data-toggle="collapse" data-target="#collapseFive"
+                        aria-expanded="false" aria-controls="collapseFive">
+                        Do you help in Retirement Planning?
+                      </a>
+                    </h5>
+                  </div>
+                  <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+                    <div class="card-body">
+                      <p>
+                        Yes. Retirement Planning is my Forte. I have helped
+                        more than 300 families plan their retirement amount.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- faq-area start -->
+  </main>
+
+  <!-- Footer  -->
+  <footer data-bg-color="#223645">
+    <div class="footer-top pt-115 pb-90">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 col-md-6">
+            <div class="footer-widget mb-30">
+              <!-- <div class="footer-logo mb-30">
+                                <a href="#"><img src="img/logo/logo-light.png" alt=""></a>
+                            </div> -->
+              <div class="footer-menu">
+                <ul>
+                  <li><a href="">Address:</a></li>
+                  <li>
+                    <a href="#">15/A, Sneh Bunglow, Avdhoot Society, Nana Shankar Seth
+                      Road, Near Samrat Hotel, Dombivli (West)</a>
+                  </li>
+                  <li class="white">
+                    <a href="tel:+919004282149" target="_blank">+91 9004282149 / 9820525790</a>
+                  </li>
+                  <li class="white">
+                    <a href="mailto:kulkarnimukund@prudentconnect.com"
+                      target="_blank">kulkarnimukund@prudentconnect.com</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3">
+            <!-- <div class="footer-widget mb-30">
+                            <h3 class="footer-title">&nbsp;</h3>
+                            <div class="footer-menu">
+                                <ul>
+                                    <li><a href="#">Portfolio </a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Latest News</a></li>
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Gallery</a></li>
+                                </ul>
+                            </div>
+                        </div> -->
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-3">
+            <div class="footer-widget mb-30">
+              <h3 class="footer-title">&nbsp;</h3>
+              <div class="footer-menu">
+                <ul>
+                  <li>
+                    <a href="#Unlock" onclick="scrollToSection('#Unlock')">Home</a>
+                  </li>
+                  <li>
+                    <a href="#services" onclick="scrollToSection('#services')">Services</a>
+                  </li>
+                  <li>
+                    <a href="#about" onclick="scrollToSection('#about')">About us</a>
+                  </li>
+                  <li>
+                    <a href="https://forms.rahulkulkarni.in/">Contact us</a>
+                  </li>
+                  <li>
+                    <a href="#faq" onclick="scrollToSection('#FAQ')">FAQ</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-2 col-lg-3 col-md-4">
+            <div class="footer-widget mb-30">
+              <h3 class="footer-title">&nbsp;</h3>
+              <div class="footer-menu">
+                <ul>
+                  <li>
+                    <a href="https://forms.rahulkulkarni.in/terms-and-conditions">Terms and Conditions</a>
+                  </li>
+                  <li>
+                    <a href="https://forms.rahulkulkarni.in/privacy-policy">Privacy Policy</a>
+                  </li>
+                  <li>
+                    <a href="https://forms.rahulkulkarni.in/refund-policy">Refund Policy</a>
+                  </li>
+                  <li>
+                    <a href="https://forms.rahulkulkarni.in/cancellation-policy">Cancellation Policy</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-xl-3 col-lg-5 col-md-6">
+            <div class="footer-widget mb-30">
+              <h3 class="footer-title">newsletter</h3>
+              <div class="footer-text mb-20">
+                <p>
+                  Stay in the loop with the latest financial insights and
+                  updates. Follow us on social media for valuable tips,
+                  industry news, and exclusive content. Your financial journey
+                  is our priority.
+                </p>
+              </div>
+              <!-- <div class="footer-subsccribe">
+                                <form action="#">
+                                    <input type="email" name="EMAIL" placeholder="Enter your email" required="">
+                                    <button type="submit"><i class="fal fa-rocket"></i></button>
+                                </form>
+                            </div> -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright-area pt-25 pb-20">
+      <div class="container">
+        <div class="row">
+          <div class="col-xl-6 col-md-6">
+            <div class="footer-copyright">
+              <p class="white-color">© 2024 Rahul Kulkarni</p>
+            </div>
+          </div>
+          <div class="col-xl-6 col-md-6">
+            <div class="footer-social text-left text-md-right">
+              <a href="https://www.facebook.com/rahulkulkarni1402/"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://www.youtube.com/@rahulkulkarni1141"><i class="fab fa-youtube"></i></a>
+              <a href="https://in.linkedin.com/in/rahul-kulkarni-29a5332b"><i class="fab fa-linkedin"></i></a>
+              <a href="https://www.instagram.com/rahulkulkarni_mutualfunds/?hl=en"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Footer  -->
+
+  <!-- Fullscreen search -->
+  <div class="search-wrap">
+    <div class="search-inner">
+      <i class="fas fa-times search-close" id="search-close"></i>
+      <div class="search-cell">
+        <form method="get">
+          <div class="search-field-holder">
+            <input type="search" class="main-search-input" placeholder="Search Your Keyword..." />
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <!-- end fullscreen search -->
+  <!-- JS here -->
+
+  <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/isotope.pkgd.min.js"></script>
+  <script src="js/one-page-nav-min.js"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="js/ajax-form.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/jquery.nice-select.min.js"></script>
+  <script src="js/jquery.scrollUp.min.js"></script>
+  <script src="js/jquery.meanmenu.min.js"></script>
+  <script src="js/jquery.counterup.min.js"></script>
+  <script src="js/waypoints.min.js"></script>
+  <script src="js/imagesloaded.pkgd.min.js"></script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
+
+
+
+
